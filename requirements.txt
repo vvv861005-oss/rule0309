@@ -1,0 +1,11 @@
+dash>=2.15.0
+dash-bootstrap-components>=1.5.0
+numpy
+pandas
+opencv-python-headless
+mediapipe
+scipy
+plotly
+torch
+qiskit
+qiskit-aer
