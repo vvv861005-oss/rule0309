@@ -40,7 +40,7 @@ except ImportError:
 try:
     import torch
     _HAS_TORCH = True
-except ImportError:
+except (ImportError, RuntimeError, OSError, Exception):
     _HAS_TORCH = False
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
