@@ -209,4 +209,4 @@ def system_pulse(n):
     return energy, resp, heart, conf, feed_src, action, coord_txt, fig_3d, fig_sig
 
 if __name__ == "__main__":
-    app.run_server(host='0.0.0.0', port=8050, debug=False)
+    app.run(host='0.0.0.0', port=8050, debug=False)
